@@ -1,0 +1,31 @@
+// styles.scss
+.testing {
+  width: percentage(5/10);
+}
+
+$font-stack:    Corsiva, Arial;
+$primary-color: #red;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+  background : yellow;  
+}
+
+
+h1 {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+
+
+p {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+
+
+span {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
